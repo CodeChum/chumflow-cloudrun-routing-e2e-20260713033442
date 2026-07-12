@@ -5,4 +5,4 @@ app = Flask(__name__)
 
 @app.get("/")
 def health():
-    return jsonify(service="chum-flow-test-service", release="hotfix-prod"), 200
+    return jsonify(service="chum-flow-test-service", release="hotenhancement-prod"), 200
